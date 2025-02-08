@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px) {
+  header .navbar-brand {
+    padding-left: 1rem;
+  }
+
+  header .container,
+  .section1,
+  .section2 .purchase {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .section1 .container .row .col-md-6 .panel {
+    margin-top: 10vmin;
+    position: initial;
+    width: initial;
+    height: initial;
+  }
+
+  .section2 .cover {
+    background-position: -25vmin -10vmin;
+  }
+  .section2 .cover-content {
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+  }
+
+  /* section3 */
+
+  .section3 {
+    height: inherit;
+  }
+
+  .section3 .container-fluid .row:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section3 .container-fluid .row:last-child .available {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .section3 .container-fluid .row:last-child .col-6:first-child {
+    text-align: center;
+  }
+  .section3 .container-fluid .row:last-child .col-6:last-child {
+    text-align: center;
+  }
+
+  
+  /* section4 */
+  .section4 .container-fluid .row:last-child .card{
+    width: 80vmin;
+  }
+
+  footer{
+    padding-right: 5vmin;
+    padding-left: 5vmin ;
+  }
+
+}

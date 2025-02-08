@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile_style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid px-0">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <a class="navbar-brand" id="nav-brand" href="#">
+            <i class="fas fa-book-reader fa-2x mx-3"></i>Books</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse text-white" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#banner"
+                  >HOME <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#services">COURSE</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#about-us">PRICE</a>
+              </li>
+              <li class="nav-item active">
+                <div class="dropdown">
+                  <a class="nav-link" href="#testmonials">PAGES</a>
+                  <div class="dropdown-content">
+                    <a href="#">GENERIC</a>
+                    <a href="#">ELEMENT</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#social-media">FACT</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#social-media">ABOUT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <!-- header-content -->
+
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 col-sm-12 text-center">
+            <p>AUTHOR: DAILY TUTIION</p>
+            <h1>EXCITING ADVENTURE</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              dolores neque voluptas vitae tenetur commodi eveniet distinctio
+              adipisci. Earum vel illum impedit aperiam ducimus. Dolores id
+              laudantium molestias nulla cumque.
+            </p>
+            <a href="#" class="btn px-5 py-2">By now for $5.99</a>
+          </div>
+          <div class="col-md-5 col-sm-12">
+            <img
+              src="./assets/header-img.png"
+              alt="header-img"
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <img
+                src="./assets/section1.jpeg"
+                alt="section1"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <div class="panel text-left">
+                <h1>Mr.David Smith</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Adipisci dolorem voluptas est reiciendis saepe. Quibusdam,
+                  repellat? Aperiam commodi sequi deleniti, voluptate voluptatem
+                  sit tenetur ratione, nisi quis similique pariatur quae.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-2 -->
+
+      <section class="section2 container-fluid">
+        <div class="cover text-center">
+          <div class="overlay"></div>
+          <div class="cover-content">
+            <h1>Some Features That Made Us Unique</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, illo
+              autem qui eius totam nobis!
+            </p>
+          </div>
+        </div>
+        <div class="container-fluid text-center">
+          <div
+            class="numbers d-flex flex-md-row flex-wrap justify-content-center"
+          >
+            <div class="rect">
+              <h1>2345</h1>
+              <p>Happy Client</p>
+            </div>
+            <div class="rect">
+              <h1>6784</h1>
+              <p>Cups Coffee</p>
+            </div>
+            <div class="rect">
+              <h1>1056</h1>
+              <p>Tickets Submitted</p>
+            </div>
+            <div class="rect">
+              <h1>9152</h1>
+              <p>Total Projects</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="purchase text-center py-5">
+          <h1>Purchase Whatever You Want</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident,
+            minima!
+          </p>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Pdf</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="card-pricing">
+                      <h5 class="card-price">$77.99</h5>
+                      <a href="#" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">E-Book</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="card-pricing">
+                      <h5 class="card-price">$59.99</h5>
+                      <a href="#" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Print-Copy</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </p>
+                    <div class="card-pricing">
+                      <h5 class="card-price">$89.99</h5>
+                      <a href="#" class="btn btn-dark">Purchase Now</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-3 -->
+
+      <section class="section3">
+        <div class="container-fluid text-center pr-0">
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <h1>Download Our App for all Platform</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum
+              </p>
+            </div>
+          </div>
+          <div class="row access">
+            <div class="col-6">
+              <div class="available">
+                <div class="platform d-flex justify-content-end">
+                  <i class="fa-solid fa-desktop mr-2"></i>
+                  <div class="platform-content text-left">
+                    <h6>On Desktop</h6>
+                    <p>On Website</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="available">
+                <div class="platform d-flex flex-row justify-content-start">
+                  <i class="fa-solid fa-phone mr-2"></i>
+                  <div class="platform-content text-left">
+                    <h6>On phone</h6>
+                    <p>On Play Store</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section4 -->
+
+      <section class="section4 my-2">
+        <div class="container-fluid py-2">
+          <div class="row">
+            <div class="col py-5 text-center">
+              <h1>What Reader Say's About Us</h1>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2">
+              <div class="card">
+                <img class="card-img-top" src="./assets/UI-face-1.jpg" alt="UI-face-1" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Amial Barbar</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="text-secondary">Go Somewhere</a>
+                  <p>Cofounder At Unilever</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2">
+              <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/UI-face-1.jpg" alt="UI-face-1" />
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Rageena Casindra</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="text-secondary">Go Somewhere</a>
+                        <p>Senior Developer At Google</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card">
+                      <img class="card-img-top" src="./assets/UI-face-2.jpg" alt="UI-face-2" />
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Blalock Jhonson</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="text-secondary">Go Somewhere</a>
+                        <p>CEO At Google</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 my-2">
+              <div class="card">
+                <img class="card-img-top" src="./assets/UI-face-1.jpg" alt="UI-face-1" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Akthar Paasha</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="text-secondary">Go Somewhere</a>
+                  <p>Developer at YouTube</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container-fluid py-5  text-white">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-5 col-sm-12 py-2">
+            <h1>About Us</h1>
+            <p class="mb-2 text-muted">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, perspiciatis!
+            </p>
+            <p class="text-muted">Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-md-4 col-sm-12 py-2">
+            <h1>NewsLetter</h1>
+            <p class="text-muted">Stay Updated</p>
+            <form action="#">
+              <input type="email" placeholder="Enter Your Email" />
+              <button class="btn">
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="col-md-3 col-sm-12 py-2">
+            <h1>Follow Us</h1>
+            <p class="text-muted">Let Us Be Social</p>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
